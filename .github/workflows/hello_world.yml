@@ -80,4 +80,4 @@ jobs:
    runs-on: $
    steps:
    - uses: actions/checkout@v2
-   - run: echo "hello Test"
+   - run: echo "Hello, World! from deploy step on ${{ matrix.os }}"
